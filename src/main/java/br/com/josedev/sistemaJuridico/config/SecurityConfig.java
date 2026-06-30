@@ -75,7 +75,8 @@ public class SecurityConfig {
                 "http://localhost:4200",
                 "http://127.0.0.1:5500",
                 "http://localhost:5500",
-                "http://localhost:3000"
+                "http://localhost:3000",
+                "https://sistema-juridico-frontend-orcin.vercel.app"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
